@@ -28,6 +28,14 @@ currentRecipeList ["Muriatic Acid"] = false
 currentRecipeList ["Caustic Soda"] = false
 currentRecipeList ["Hydrogen Chloride"] = false
 
+-- Math.Clamp
+function clampCeiling (var, vMax)
+	if val > vMax then
+		val = vMax
+	end
+	
+	return val
+	
 local _queue_dialog_orig = DialogManager.queue_dialog
 function DialogManager:queue_dialog(id, ...)
 	-- If dialogue code is found in dict
@@ -45,7 +53,7 @@ function DialogManager:queue_dialog(id, ...)
 		
 		-- If "ingredient added" dialogue is played
 		elseif id == CookoffAddedID or id == RatsAddedID then
-			currentRecipe = currentRecipe + 1
+			currentRecipe = clampCeiling (currentRecipe + 1, 3)
 		
 		-- Else ID is for ingredient
 		else
