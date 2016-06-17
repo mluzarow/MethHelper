@@ -52,7 +52,7 @@ function DialogManager:queue_dialog(id, ...)
 			managers.chat:_receive_message (1, "[MethMagic]", "Total bags: [" .. totalBags .. "]", Color.green)
 		
 		-- If "ingredient added" dialogue is played
-		elseif id == CookoffAddedID or id == RatsAddedID then
+		elseif (id == CookoffAddedID or id == RatsAddedID) and (currentRecipe ["Muriatic Acid"] == true and currentRecipeList ["Caustic Soda"] == true and currentRecipeList ["Hydrogen Chloride"] ==  true) then
 			currentRecipe = clampCeiling (currentRecipe + 1, 3)
 		
 		-- Else ID is for ingredient
