@@ -1,6 +1,6 @@
--- Batch complete (Rats)
+-- Dialogue event codes
 local RatsFinishedID = "pln_rat_stage1_28"
-local RatsAddedID = "pln_rat_stage1_12" -- ???
+local RatsAddedID = "pln_rat_stage1_12"
 local CookoffFinishedID = "pln_rt1_28"
 local CookoffAddedID = "pln_rt1_12"
 
@@ -36,9 +36,11 @@ function clampCeiling (var, vMax)
 	
 	return val
 	
+-- Trigger this every time there is dialogue
 local _queue_dialog_orig = DialogManager.queue_dialog
 function DialogManager:queue_dialog(id, ...)
-	-- If dialogue code is found in dict
+	
+    -- If dialogue code is found in dict
     if ingredient_dialog[id] then
 		-- If "batch finished" dialogue is played
 		if id == CookoffFinishedID or id == RatsFinishedID then
