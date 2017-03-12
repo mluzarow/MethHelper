@@ -29,7 +29,7 @@ currentRecipeList ["Caustic Soda"] = false
 currentRecipeList ["Hydrogen Chloride"] = false
 
 -- Math.Clamp
-function clampCeiling (var, vMax)
+function clampCeiling (val, vMax)
 	if val > vMax then
 		val = vMax
 	end
