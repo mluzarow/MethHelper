@@ -4,6 +4,7 @@
 	"author" : "Keys",
 	"contact" : "http://steamcommunity.com/id/ilikekeys/",
 	"version" : "1.00",
+	"blt_version" : "2",
 	"updates" : 
 	[
 		{
