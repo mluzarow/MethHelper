@@ -1,6 +1,6 @@
 {
-	"name" : "Meth Helper",
-	"description": "Prints out information regarding recipe requirements during Rats day 1 and Cook Off.",
+	"name" : "MethHelper",
+	"description": "Prints out information regarding recipe requirements during Hotline Miami day 1, Bomb Dockyard, Rats day 1 and Cook Off.",
 	"author" : "Keys",
 	"contact" : "http://steamcommunity.com/id/ilikekeys/",
 	"version" : "1.00",
