@@ -14,6 +14,7 @@
 	],
 	"hooks" : 
 	[
-		{"hook_id" : "lib/managers/dialogmanager", "script_path" : "lua/MethHelper.lua"}
+		{"hook_id" : "lib/managers/dialogmanager", "script_path" : "lua/MethHelper.lua"},
+		{"hook_id" : "lib/managers/menumanager","script_path" : "lua/MethHelper.lua"}
 	]
 }

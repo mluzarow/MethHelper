@@ -1,0 +1,8 @@
+{
+    "methHelper_title" : "Methhelper Menu",
+    "methHelper_menu_desc" : "A few options for the Methhelper Mod!",
+    "meth_helper_active_toggle" : "Methhelper Active?",
+    "meth_helper_active_desc" : "Enable or disable Methhelper",
+    "meth_helper_silent_toggle" : "Silentmode?",
+    "meth_helper_silent_desc" : "When in Silent mode only you get the chat messages, while when not in silent mode every one gets the message!"
+}

@@ -1,0 +1,27 @@
+{
+	"menu_id" : "methHelper_menu",
+	"parent_menu_id" : "blt_options",
+	"title" : "methHelper_title",
+	"description" : "methHelper_menu_desc",
+	"items" : [
+
+		{
+			"type" : "toggle",
+			"id" : "meth_helper_active",
+			"title" : "meth_helper_active_toggle",
+			"description" : "meth_helper_active_desc",
+			"callback" : "callback_meth_helper_active",
+			"value" : "meth_helper_active_value",
+			"default_value" : true
+        },
+        {
+			"type" : "toggle",
+			"id" : "meth_helper_silent",
+			"title" : "meth_helper_silent_toggle",
+			"description" : "meth_helper_silent_desc",
+			"callback" : "callback_meth_helper_silent",
+			"value" : "meth_helper_silent_value",
+			"default_value" : false
+        }
+    ]
+}

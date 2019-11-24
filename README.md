@@ -3,7 +3,7 @@ A mod for PAYDAY 2 which notifies the player as to which meth ingredient is to b
 
 Mod will print the current required ingredient to the host of the mod (that's you) and nobody else. All messages from MethHelper will be preceeded by the tag "[MethHelper]".
 
-Works with Cook Off, Rats day 1, Hotline Miami day 1, and Bomb Dockyard.
+Works with Cook Off, Rats day 1, Hotline Miami day 1, Border Crystal and Bomb Dockyard.
 
 # How to install
 In order to install this mod, follow the outlined steps below:
